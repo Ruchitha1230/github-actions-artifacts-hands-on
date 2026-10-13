@@ -24,8 +24,8 @@ jobs:
      runs-on: ubuntu-latest
 
      steps:
-     - name: download the Artifact
-       uses: actions/download-artifact@v7
+     - name: Download text file
+       uses: actions/download-artifact@v4
        with:
           name: hello-artifact
           path: ./artifacts
